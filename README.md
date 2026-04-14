@@ -24,7 +24,7 @@
 Здесь представлены мои реальные артефакты тестирования:
 
 ### 📌 Тест-кейсы
-- 🔗 https://github.com/your-username/test-cases
+- 🔗 [https://github.com/your-username/test-cases](https://github.com/puc1k-qa/test-case)
 - Описание: тест-кейсы для веб-приложения (функциональное тестирование)
 
 ---
