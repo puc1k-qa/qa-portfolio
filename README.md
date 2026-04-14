@@ -24,22 +24,26 @@
 Здесь представлены мои реальные артефакты тестирования:
 
 ###  Тест-кейсы
-- 🔗 [https://github.com/your-username/test-cases](https://github.com/puc1k-qa/test-case)
+-  [https://github.com/your-username/test-cases](https://github.com/puc1k-qa/test-case)
 - Описание: тест-кейсы для веб-приложения (функциональное тестирование)
 
 ---
 
 ###  Чек-листы
-- 🔗 [https://github.com/your-username/checklists](https://github.com/puc1k-qa/checklists)
+-  [https://github.com/your-username/checklists](https://github.com/puc1k-qa/checklists)
 - Описание: чек-листы для проверки веб-приложения
 
 ---
 
 ###  Баг-репорты
-- 🔗 [https://github.com/your-username/bug-reports](https://github.com/puc1k-qa/bag-reports)
+-  [https://github.com/your-username/bug-reports](https://github.com/puc1k-qa/bag-reports)
 - Описание: оформленные дефекты с шагами воспроизведения
 
 ---
+
+### API-тестирование (Postman коллекция)
+- [https://github.com/puc1k-qa/api-postman](https://github.com/puc1k-qa/api-postman)
+- Описание: коллекция запросов GET / POST / PATCH / DELETE
 
 ##  Тестирование веб-приложений
 
