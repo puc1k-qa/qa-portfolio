@@ -36,14 +36,8 @@
 ---
 
 ### 📌 Баг-репорты
-- 🔗 https://github.com/your-username/bug-reports
+- 🔗 [https://github.com/your-username/bug-reports](https://github.com/puc1k-qa/bag-reports)
 - Описание: оформленные дефекты с шагами воспроизведения
-
----
-
-### 📌 API тестирование (Postman коллекции)
-- 🔗 https://github.com/your-username/api-testing
-- Описание: коллекции запросов GET / POST / PUT / DELETE + примеры ответов
 
 ---
 
