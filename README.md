@@ -30,14 +30,14 @@
 ---
 
 ### 📌 Чек-листы
-- 🔗 https://github.com/your-username/checklists
-- Описание: чек-листы для проверки UI и API
+- 🔗 [https://github.com/your-username/checklists](https://github.com/puc1k-qa/checklists)
+- Описание: чек-листы для проверки веб-приложения
 
 ---
 
 ### 📌 Баг-репорты
 - 🔗 https://github.com/your-username/bug-reports
-- Описание: оформленные дефекты с шагами воспроизведения, expected/actual result
+- Описание: оформленные дефекты с шагами воспроизведения
 
 ---
 
