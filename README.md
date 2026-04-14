@@ -95,5 +95,5 @@ Junior QA Engineer → развитие в QA Automation и API testing
 
 ## 📫 Контакты
 
-- Telegram: @your_username
-- Email: your_email@example.com
+- Telegram: @puc1kv
+- Email: puc1kvartanian@gmail.com
