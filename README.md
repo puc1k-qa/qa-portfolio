@@ -19,6 +19,12 @@
 
 ---
 
+##  Сертификаты о прохождении курсов
+
+https://drive.google.com/drive/folders/11rgs7M5LTBhC0zHPFe-se8aM7ajUYDvy?usp=sharing
+
+---
+
 ##  Портфолио QA (практические работы)
 
 Здесь представлены мои реальные артефакты тестирования:
