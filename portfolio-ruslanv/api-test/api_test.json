@@ -1,0 +1,226 @@
+{
+  "info": {
+    "_postman_id": "cbc32d37-baf2-4526-b633-e8d6b5d0aee3",
+    "name": "KnigiRoom",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50106720",
+    "_collection_link": "https://go.postman.co/collection/50106720-cbc32d37-baf2-4526-b633-e8d6b5d0aee3?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Товары",
+      "item": [
+        {
+          "name": "get_books",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/books",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "books"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get_book_id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/book/3",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "book",
+                "3"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Отзывы",
+      "item": [
+        {
+          "name": "post_review",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"book_id\": 5,\r\n    \"author_name\": \"Руслан\",\r\n    \"text\": \"хорошая книга, мне понравилась\",\r\n    \"recommended\": true\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://188.120.241.222:8534/review",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "review"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get_reviews_bookid",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/reviews/1",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "reviews",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get_review_reviewid",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/review/2400",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "review",
+                "2400"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "patch_review",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"text\": \"классная книга!\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://188.120.241.222:8534/review/2400",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "review",
+                "2400"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/review/2400",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "review",
+                "2400"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Промокоды",
+      "item": [
+        {
+          "name": "get_promocodes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://188.120.241.222:8534/promocodes/summer",
+              "protocol": "http",
+              "host": [
+                "188",
+                "120",
+                "241",
+                "222"
+              ],
+              "port": "8534",
+              "path": [
+                "promocodes",
+                "summer"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
